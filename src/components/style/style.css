@@ -1,0 +1,562 @@
+.container{
+    padding: 3% 5%;
+    overflow-x: hidden;
+    height: 100%;
+    background: rgb(135,174,255);
+    background: linear-gradient(148deg, rgba(135,174,255,1) 0%, rgba(208,219,241,1) 50%, rgba(255,116,167,1) 100%); 
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 10px 0px;
+}
+.App{
+    height: 100vh;
+    box-sizing: border-box;
+}
+.MainPage{
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+}
+.MainPage .LeftSide{
+    width: 70%;
+    background-color: #f0f5ff;
+    padding: 2%;
+}
+.MainPage .RightSide{
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    padding: 2%;
+}
+
+    .MainPage .LeftSide .LeftNavnar{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    
+    .MainPage .LeftSide .LeftNavnar .Right .DarkLightMode{
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        width: 70px;
+        background-color: white;
+        padding: 8px ;
+        border-radius: 0% 50%;
+    }
+    .MainPage .LeftSide .LeftNavnar .Left{
+        color: #538cff;
+    }
+    h3 i{
+        font-size: 24px;
+    }
+
+    .MainPage .LeftSide .LeftNavnar .Right .DarkLightMode i{
+        font-size: 24px;
+        color: rgb(194, 194, 194);
+        cursor: pointer;
+        padding: 4px 6px;
+        border-radius: 50%;
+    }
+    
+    .activeicon{
+        background-color: #538cff;
+        color: white !important;
+    }
+
+    .LeftSide .Cards{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .LeftSide .Cards .Card{
+        background-color: white;
+        width: calc(100% / 7);
+        border-radius: 20px;
+        text-align: center;
+        height: max-content;
+        padding: 10px 0px;
+        cursor: pointer;
+    }
+    .LeftSide .Cards .Card img{
+    width: 60px;
+    height: 60px;
+    }
+    .LeftSide .Cards .Card h4{
+    margin: 0px  0px 10px;
+    font-weight: bold;
+    color: rgb(36, 36, 36);
+    }
+
+    .LeftSide .Cards .Card .Temp{
+        position: relative;
+        font-size: 20px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .LeftSide .Cards .Card .Temp .TempMark{
+        content: "";
+        position: absolute;
+        border: 1px solid black;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        left: 61%;
+        top: -5%;
+    }
+
+    .ActiveCard{
+        background-color: #538cff !important;
+    }
+    .ActiveCard h4{
+        color: white !important;
+    }
+    .ActiveCard .TempMark{
+        border-color: white !important;
+        }
+    
+
+        .MainPage .RightSide .Nav {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            align-items: center;
+        }
+        .MainPage .RightSide .Nav .NavRight{
+            color: #538cff9a;
+            width: 10%;
+            font-size: 28px;
+        }
+        .MainPage .RightSide .Nav .NavLeft{
+            background-color: #f5f8ff;
+            width: 87%;
+            color: #538cff9a;
+            border-radius: 20px;
+            padding: 8px 3px;
+            position: relative;
+        }
+        
+        .MainPage .RightSide .Nav .NavLeft .Search i{
+            font-size: 24px;
+        }
+        .MainPage .RightSide .Nav .NavLeft .Search i:last-of-type{
+            background-color: white;
+            padding: 6px 8px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        .MainPage .RightSide .Nav .NavLeft .Search input{
+            border: none;
+            outline: none;
+            background-color: transparent;
+            height: 100%;
+            width: 70%;
+            font-size: 22px;
+            padding: 0px 8px;
+            color: #538cff9a;
+        }
+        .MainPage .RightSide .Nav .NavLeft .AutoCity{
+            position: absolute;
+            left: 50%;
+            top: 102%;
+            transform: translateX(-50%);
+            background-color: #f0f5ff;
+            font-size: 10px;
+            color: gray;
+            width: 100%;
+            border-radius: 0px 0px 20px 20px;
+            z-index: 99999999999;
+            display: none;
+        }
+        .MainPage .RightSide .Nav .NavLeft .AutoCity h3{
+            cursor: pointer;
+        }
+
+        .MainPage .RightSide .TheContainer .RightCard{
+            position: relative;
+            background: rgb(150,185,255);
+            background: linear-gradient(100deg, rgba(150,185,255,1) 0%, rgba(103,153,255,0.9696078260405725) 72%); 
+            height: max-content;
+            overflow: hidden;
+            padding: 20px;
+            margin-top: 35px;
+            border-radius: 20px;
+        }
+        .MainPage .RightSide .TheContainer .RightCard .City{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        color: white;
+        position: relative;
+        }
+        .MainPage .RightSide .TheContainer .RightCard .City i{
+        margin-right: 8px;
+        font-size: 20px;
+        }
+        .MainPage .RightSide .TheContainer .RightCard .City .LiveUpdate{
+        position: absolute;
+        left: 40%;
+        top: -15%;
+        font-size: 18px;
+        margin: 0;
+        transform: translate(-50%,-50%);
+        }
+        .MainPage .RightSide .TheContainer .RightCard .City .LiveUpdate::after{
+        position: absolute;
+        content: "";
+        right: -25%;
+        top: 50%;
+        transform: translate(50%,-30%);
+        background-color: transparent;
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        animation: live 1.3s forwards  infinite alternate ;
+        }
+        @keyframes live {
+            to{
+                background-color: red;
+            }
+        }
+        .MainPage .RightSide .TheContainer .RightCard .Sun{
+            position: absolute;
+            top: 0%;
+            right: 0%;
+            transform: translate(21%,-20%);
+        }
+        .MainPage .RightSide .TheContainer .RightCard  img{
+            width: 100px;
+            height: 100px;
+        }
+        
+        .RightSide .TheContainer .RightCard .Temp{
+            position: relative;
+            font-size: 60px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+        }
+        .RightSide .TheContainer .RightCard .Temp .TempMark{
+            content: "";
+            position: absolute;
+            border: 1px solid white;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            left: 61%;
+            top: 10%;
+        }
+
+        .RightSide .TheContainer .RightCard .WindanHum{
+            display: flex;
+            justify-content: center;
+        }
+        .RightSide .TheContainer .RightCard .Wind{
+            color: white;
+            font-size: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .RightSide .TheContainer .RightCard .Wind .TheWind i{
+            margin-right: 8px;
+            font-size: 24px;
+        }
+        .RightSide .TheContainer .RightCard .Hum{
+            margin-top: 10px;
+            color: white;
+            font-size: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .RightSide .TheContainer .RightCard .Hum .TheHum i{
+            margin-right: 8px;
+            font-size: 26px
+        }
+        
+        body .LoadingScreen{
+            position: absolute;
+            z-index: 9999;
+            width: 100%;
+            background-color: #181310;
+            height: 130vh;
+            top: 0%;
+            left: 0%;
+        }
+        body .LoadingScreen .LoadingText{
+            color: white;
+            position: absolute;
+            left: 50%;
+            top: 10%;
+            transform: translateX(-50%);
+            font-weight: bold;
+            font-size: 36px;
+            font-family: Arial, Helvetica, sans-serif;
+            letter-spacing: 1px;
+        }
+        body .LoadingScreen img{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+        .Nav .NavRight .Notification{
+            position: relative;
+            cursor: pointer;
+        }
+        .Nav .NavRight .Notification .NotificationMessage{
+            position: absolute;
+            width: 150px;
+            height: max-content;
+            background-color: #f0f5ff;
+            z-index: 100;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,40%);
+            border-radius: 0px 0px 10px 10px;
+            cursor: default;
+            color: rgba(128, 128, 128, 0.671);
+            text-transform: capitalize;
+            font-family: Arial, Helvetica, sans-serif;
+            visibility: hidden;
+            transition-duration: 1s;
+        }
+        .Nav .NavRight .Notification .NotificationMessage h2{
+            margin: 40px 0px;
+            font-size: 12px;
+        }
+
+        .LefContent{
+            display: flex;
+            margin-top: 20px;
+            justify-content: space-between;
+            height: 350px;
+        }
+        .LefContent .LeftLeft{
+            background-color: transparent;
+            width: calc(58% - 10px);
+            border-radius: 20px;
+        }
+        .LefContent .LeftRight{
+            background-color: white;
+            width: calc(42% - 5px);
+            position: relative;
+            border-radius: 30px;
+        }
+        .LefContent .LeftRight .Status{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .LefContent .LeftRight .Status .S{
+            position: relative;
+            margin: 0px 10%;
+        }
+        .LefContent .LeftRight .Status .S::before{
+            position: absolute;
+            content: "";
+            height: 12px;
+            width: 12px;
+            border-radius: 50%;
+            left: -35%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .LefContent .LeftRight .Status .Sun::before{
+            background-color: #F28C38;
+        }
+        .LefContent .LeftRight .Status .Snow::before{
+            background-color: #7ba6ff;
+            left: -30%;
+        }
+        .LefContent .LeftRight .Status .Rain::before{
+            background-color: #09acd7;
+        }
+        .LefContent .LeftRight .CircleStatus{
+            position: absolute;
+            width: 260px;
+            height: 260px;
+            background-color: #F28C38;
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-43%);
+            cursor: default;
+        }
+        .LefContent .LeftRight .CircleStatus .CircleStatusData{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            display: none;
+        }
+        .LefContent .LeftRight .CircleStatus .CircleStatusData h2{
+        font-size: 23px !important;
+        margin: 10px 0px !important;
+        }
+        .LefContent .LeftRight .CircleStatus:hover .CircleStatusData{
+            display: block;
+        }
+        .LeftLeft .LeftLeftTop{
+            height: max-content;
+            color: black;
+            background-color: #fff8f0;
+            border-radius: 20px;
+        }
+        .LeftLeft .LeftLeftTop h1{
+            font-size: 20px;
+            margin: 0;
+            padding: 20px;
+            letter-spacing: 1px;
+            font-weight: bold;
+        }
+        .LeftLeft .LeftLeftTop h1 i{
+            margin-right: 15px;
+            font-size: 24px;
+            color: #538cff;
+        }
+        .LeftLeft .LeftLeftTop .SunriseAndSunset{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding-bottom: 10px;
+        }
+        .LeftLeft .LeftLeftTop .SunriseAndSunset i{
+            color: #ffb866;
+            font-size: 30px;
+            margin-right: 10px;
+        }
+        .LeftLeft .LeftLeftTop .SunriseAndSunset .Sunrise{
+            display: flex;
+            align-items: center;
+            width: 40%;
+            justify-content: center;
+        }
+        .LeftLeft .LeftLeftTop .SunriseAndSunset .Sunset{
+            display: flex;
+            align-items: center;
+            width: 40%;
+            justify-content: center;
+        }
+        .LeftLeft .LeftLeftDown{
+            height: calc(60% - 10px);
+            background-color: white;
+            margin-top: 15px;
+            border-radius: 30px;
+            padding: 5px;
+        }
+        .LeftLeft .LeftLeftDown .DayData{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .LeftLeft .LeftLeftDown .DayData h1{
+            position: relative;
+            font-size: 39px;
+            font-weight: bold;
+        }
+        .LeftLeft .LeftLeftDown .DayData h1::after{
+            content: "";
+            position: absolute;
+            border: 2px solid black;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            right: -25%;
+            top: -5%;
+        }
+        .LeftLeft .LeftLeftDown .DayData .WindandHum{
+            color: rgb(112, 112, 112);
+            font-weight: bold;
+            font-size: 18px;
+            text-align: start;
+        }
+
+.DesigndeBy{
+    margin-top: 35px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #4b49ca;
+    border: 3px outset #3c3b70;
+    padding: 20px;
+    border-radius: 30px;
+}
+.DesigndeBy span{
+    font-size: 46px;
+    -webkit-text-stroke: #03a9f4 1px ;
+    color: #03a9f4;
+    position: relative;
+}
+.DesigndeBy span::after{
+    content: "M17";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #03a9f4;
+    animation:  M17 4s ease-in-out infinite ;
+    animation-play-state: paused;
+}
+@keyframes M17 {
+    0%,
+    100% {
+      clip-path: polygon(
+        0% 45%,
+        16% 44%,
+        33% 50%,
+        54% 60%,
+        70% 61%,
+        84% 59%,
+        100% 52%,
+        100% 100%,
+        0% 100%
+      );
+    }
+  
+    50% {
+      clip-path: polygon(
+        0% 60%,
+        15% 65%,
+        34% 66%,
+        51% 62%,
+        67% 50%,
+        84% 45%,
+        100% 46%,
+        100% 100%,
+        0% 100%
+      );
+    }
+  }
+
+  .Footer{
+    margin-top: 4%;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .Footer i{
+    font-size: 36px;
+    cursor: pointer;
+    margin: 15px;
+    margin-bottom: 30px;
+  }
+  .Footer a:nth-of-type(1){
+    color: black;
+  }
+  .Footer a:nth-of-type(2){
+    color: #2374e1;
+  }
+  .Footer a:nth-of-type(3){
+    color: #014486;
+  }
+  .Footer a:nth-of-type(4){
+    color: #17964c;
+  }
+  .Footer .OurProjects{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 26px;
+    color: white;
+    padding: 10px 20px !important;
+    border-radius: 30px;
+    background-color: #538cff;
+  }

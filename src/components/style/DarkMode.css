@@ -1,0 +1,114 @@
+
+
+.DarkMode .container{
+    background: rgb(128,173,224);
+    background: linear-gradient(100deg, rgba(128,173,224,1) 0%, rgba(132,131,200,1) 65%); 
+}
+.DarkMode .LeftSide{
+    background-color: #313060;
+}
+.DarkMode .RightSide{
+    background-color: #2d2a54;
+}
+.DarkMode .MainPage .LeftSide .LeftNavnar .Right .DarkLightMode{
+    background-color: #3c3b70; 
+}
+.DarkMode .MainPage .LeftSide .LeftNavnar .Left{
+    color: whitesmoke;
+}
+.DarkMode .activeicon{
+    background-color: #3360bb;
+}
+
+.DarkMode .LeftSide .Cards .Card{
+    background-color: #3c3b70;
+    color: white !important;
+}
+.DarkMode .LeftSide .Cards .Card h4{
+    color:white !important;
+}
+.DarkMode .ActiveCard{
+    background-color:#8cb2fe ;
+}
+
+.DarkMode .LeftSide .Cards .Card .Temp .TempMark{
+    border: 1px solid white !important;
+}
+
+.DarkMode .MainPage .RightSide .Nav .NavRight{
+    color: white;
+}
+.DarkMode .MainPage .RightSide .Nav .NavLeft{
+    background-color: #3c3b70;
+    color: white;
+}
+.DarkMode .MainPage .RightSide .Nav .NavLeft .Search i:last-of-type{
+    background-color: #2d2a54;
+}
+.DarkMode .MainPage .RightSide .Nav .NavLeft .Search input{
+    color: white;
+}
+
+.DarkMode .MainPage .RightSide  .RightCard{
+    background: #97b9ff;
+    background: linear-gradient(100deg, #97b9ff 0%, #729fff 72%); 
+}
+.DarkMode .Nav .NavRight .Notification .NotificationMessage{
+    background-color: #3c3b70;
+    color: white;
+}
+
+.DarkMode .LeftLeft .LeftLeftTop{
+    color: white;
+    background-color: #2a2753;
+}
+
+.DarkMode .LeftLeft .LeftLeftDown{
+    background-color: #3c3b70;
+}
+
+.DarkMode .LeftLeft .LeftLeftDown .DayData h1::after{
+    border: 2px solid white;
+}
+.DarkMode .LeftLeft .LeftLeftDown{
+    color: white;
+}
+.DarkMode .LeftLeft .LeftLeftDown .DayData .WindandHum{
+    color: white;
+}
+.DarkMode .LefContent .LeftRight{
+    background-color: #2a2753;
+}
+.DarkMode .DesigndeBy{
+    box-shadow: 6px 11px 18px black;
+}
+.DarkMode .DesigndeBy span{
+    color: transparent;
+}
+.DarkMode .DesigndeBy span::after{
+    animation-play-state:running;
+}
+.DarkMode .LefContent .LeftRight .Status{
+    color: white;
+}
+
+
+.DarkMode .Footer h1{
+    color: white;
+  }
+  .DarkMode .Footer a:nth-of-type(1){
+    color: black;
+  }
+  .DarkMode .Footer a:nth-of-type(2){
+    color: #006eff;
+  }
+  .DarkMode .Footer a:nth-of-type(3){
+    color: #0080ff;
+  }
+  .DarkMode .Footer a:nth-of-type(4){
+    color: #03d85c;
+  }
+  .DarkMode .Footer .OurProjects{
+    color: white !important;
+    background-color: #1c55c5;
+  }

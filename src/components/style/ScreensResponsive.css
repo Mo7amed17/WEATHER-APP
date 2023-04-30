@@ -1,0 +1,1539 @@
+
+@media (max-width: 1150px) {
+        /*Circle */
+        .LefContent .LeftRight .CircleStatus{
+            width: 225px;
+            height: 225px;
+        }
+        .LefContent .LeftRight .CircleStatus .CircleStatusData h2{
+            font-size: 21px !important;
+            margin: 10px 0px !important;
+            }
+            .LefContent .LeftRight .Status{
+                font-size: 14px;
+            }
+            .LefContent .LeftRight .Status .Snow::before{
+                left: -25%;
+            }
+            /* Left Nav*/
+            .MainPage .LeftSide .LeftNavnar .Right .DarkLightMode i{
+                font-size: 22px;
+            }
+            .MainPage .LeftSide .LeftNavnar .Left{
+                font-size: 15px !important;
+            }
+            /*Left Cards*/
+            .LeftSide .Cards .Card{
+                padding: 8px 0px 0px;
+            }
+            .LeftSide .Cards .Card img{
+            width: 50px;
+            height: 50px;
+            }
+            .LeftSide .Cards .Card{
+                width: calc(100% / 6.7);
+            }
+            .LeftSide .Cards .Card h4{
+            font-size: 14px;
+            }
+            /*Nav Right*/
+            .MainPage .RightSide .Nav .NavLeft{
+                padding: 8px 4px;
+                width: 85%;
+            }
+            .MainPage .RightSide .Nav .NavLeft .Search i{
+                font-size: 22px;
+            }
+            .MainPage .RightSide .Nav .NavLeft .Search i:last-of-type{
+                padding: 6px 8px;
+            }
+            .MainPage .RightSide .Nav .NavLeft .Search input{
+                font-size: 20px;
+                padding: 0px 7px;
+            }
+            /*Left Down Left Down*/
+            .LeftLeft .LeftLeftDown h2{
+                font-size: 22px;
+            }
+            .LeftLeft .LeftLeftDown h3{
+                font-size: 18px;
+            }
+            .LeftLeft .LeftLeftDown .DayData h1{
+                font-size: 34px;
+            }
+            .LeftLeft .LeftLeftDown .DayData h1::after{
+                width: 6px;
+                height: 6px;
+                right: -22%;
+                top: 5%;
+            }
+            .LeftLeft .LeftLeftDown .DayData .WindandHum{
+                font-weight: normal;
+                font-size: 16px;
+            }
+            /*Left Down Left Top*/
+            .LeftLeft .LeftLeftTop .SunriseAndSunset i{
+                font-size: 26px;
+            }
+            .LeftLeft .LeftLeftTop .SunriseAndSunset{
+                font-size: 15px;
+            }
+            /*Main Page */
+            .MainPage .RightSide{
+                width: 33%;
+            }
+            .MainPage .LeftSide{
+                width: 67%;
+            }
+            /*Right Card */
+            .MainPage .RightSide  .RightCard  img{
+                width: 90px;
+                height: 90px;
+            }
+            .RightSide .RightCard .Temp{
+                font-size: 50px !important;
+            }
+            /*Designed By*/
+            .DesigndeBy{
+                font-size: 30px;
+            }
+            /*Sweatalert Pop Up*/
+            .swal2-container.swal2-center > .swal2-popup {
+                width: 350px;
+                height: 250px;
+                font-size: 20px;
+                border-radius: 20px;
+            }
+            .swal2-icon.swal2-error.swal2-icon-show {
+                width: 80px;
+                height: 80px;
+                font-size: 16px;
+            }
+            .swal2-title {
+                font-size: 24px !important;
+            }
+        }
+
+@media (max-width: 1030px) {
+        /*Circle */
+        .LefContent .LeftRight {
+            height: 321px;
+        }
+        .LefContent .LeftRight .CircleStatus{
+            width: 210px;
+            height: 210px;
+        }
+        .LefContent .LeftRight .CircleStatus .CircleStatusData h2{
+            font-size: 18px !important;
+            }
+            /* Left Nav*/
+            .MainPage .LeftSide .LeftNavnar .Left{
+                font-size: 14px !important;
+            }
+            .MainPage .LeftSide .LeftNavnar .Left h3{
+                font-size: 18px !important;
+            }
+            /*Left Cards*/
+            .LeftSide .Cards .Card{
+                padding: 6px 0px 0px;
+            }
+            .LeftSide .Cards .Card h4{
+            font-size: 12px;
+            }
+            .LeftSide .Cards .Card h4:last-of-type{
+            font-size: 16px;
+            }
+            /*Nav Right*/
+            .MainPage .RightSide .Nav .NavLeft{
+                padding: 6px 4px;
+            }
+            .MainPage .RightSide .Nav .NavLeft .Search i{
+                font-size: 20px;
+            }
+            .MainPage .RightSide .Nav .NavLeft .Search input{
+                font-size: 18px;
+                padding: 0px 7px;
+            }
+            .MainPage .RightSide .Nav .NavRight i{
+                font-size: 24px;
+            }
+            /*Left Down Left Down*/
+            .LeftLeft .LeftLeftDown {
+                height: calc(55% - 10px);
+            }
+            .LeftLeft .LeftLeftDown h2{
+                font-size: 19px;
+            }
+            .LeftLeft .LeftLeftDown h3{
+                font-size: 15px;
+            }
+            .LeftLeft .LeftLeftDown .DayData img{
+                width: 80px !important;
+                height: 80px !important;
+            }
+            .LeftLeft .LeftLeftDown .DayData h1{
+                font-size: 28px;
+            }
+            .LeftLeft .LeftLeftDown .DayData h1::after{
+                width: 4px;
+                height: 4px;
+            }
+            .LeftLeft .LeftLeftDown .DayData .WindandHum{
+                font-weight: bold;
+                font-size: 14px;
+            }
+            /*Left Down Left Top*/
+            .LeftLeft .LeftLeftTop h1{
+                font-size: 18px;
+            }
+            .LeftLeft .LeftLeftTop h1 i{
+                font-size: 20px;
+            }
+            .LeftLeft .LeftLeftTop .SunriseAndSunset i{
+                font-size: 24px;
+            }
+            .LeftLeft .LeftLeftTop .SunriseAndSunset{
+                font-size: 13px;
+            }
+            /*Right Card */
+            .MainPage .RightSide  .RightCard  img{
+                width: 80px;
+                height: 80px;
+            }
+            .RightSide .RightCard .City{
+                font-size:16px;
+            }
+            .RightSide .RightCard .Temp{
+                font-size: 40px !important;
+            }
+            .RightSide .TheContainer .RightCard .Temp .TempMark {
+                width: 6px;
+                height: 6px;
+                border-radius: 50%;
+                left: 60%;
+                top: 10%;
+            }
+            .RightSide .RightCard .Wind{
+                font-size: 18px;
+            }
+            .RightSide .RightCard .Wind .TheWind i{
+                margin-right: 5px;
+                font-size: 20px;
+            }
+            .RightSide .RightCard .Hum{
+                font-size: 18px;
+            }
+        }
+
+@media (max-width: 950px) {
+        /*Loading Screen*/
+        body .LoadingScreen .LoadingText{
+            font-size: 30px;
+        }
+        body .LoadingScreen img{
+            width: 50%;
+            top: 35%;
+            left: 50%;
+        }
+        /*Circle */
+        .LefContent {
+            margin-top: 50px;
+        }
+        .LefContent .LeftRight {
+            height: 273px;
+        }
+        .LefContent .LeftRight .CircleStatus{
+            width: 180px;
+            height: 180px;
+        }
+        .LefContent .LeftRight .CircleStatus .CircleStatusData h2{
+            font-size: 17px !important;
+            }
+            .LefContent .LeftRight .Status{
+                font-size: 12px;
+            }
+            .LefContent .LeftRight .Status .S::before{
+                height: 10px;
+                width: 10px;
+            }
+            /* Left Nav*/
+            .MainPage .LeftSide .LeftNavnar .Left{
+                font-size: 13px !important;
+            }
+            .MainPage .LeftSide .LeftNavnar .Left h3{
+                font-size: 17px !important;
+            }
+            .MainPage .LeftSide .LeftNavnar .Left h3 i{
+                font-size: 20px !important;
+            }
+            /*Left Cards*/
+            .LeftSide .Cards .Card{
+                width: calc(100% / 6.5);
+            }
+            .LeftSide .Cards .Card{
+                padding: 5px 0px 0px;
+            }
+            /*Nav Right*/
+            .MainPage .RightSide .Nav .NavLeft{
+                padding: 6px 4px;
+            }
+            .MainPage .RightSide .Nav .NavLeft .Search i{
+                font-size: 18px;
+            }
+            .MainPage .RightSide .Nav .NavLeft .Search input{
+                font-size: 16px;
+                padding: 0px 5px;
+            }
+            .MainPage .RightSide .Nav .NavRight i{
+                font-size: 24px;
+            }
+            /*Left Down Left Down*/
+            .LeftLeft .LeftLeftDown {
+                height: calc(50% - 10px);
+            }
+            .LeftLeft .LeftLeftDown h2{
+                font-size: 18px;
+                font-weight: lighter;
+            }
+            .LeftLeft .LeftLeftDown h3{
+                font-size: 14px;
+            }
+            .LeftLeft .LeftLeftDown .DayData img{
+                width: 70px !important;
+                height: 70px !important;
+            }
+            .LeftLeft .LeftLeftDown .DayData h1{
+                font-size: 26px;
+            }
+            .LeftLeft .LeftLeftDown .DayData h1::after{
+                width: 3px;
+                height: 3px;
+            }
+            .LeftLeft .LeftLeftDown .DayData .WindandHum{
+                font-size: 13px;
+            }
+            /*Left Down Left Top*/
+            .LeftLeft .LeftLeftTop h1{
+                font-size: 16px;
+                font-weight: lighter;
+                padding-top: 5px ;
+                padding-bottom: 5px ;
+            }
+            .LeftLeft .LeftLeftTop h1 i{
+                font-size: 16px;
+                margin-right: 5px;
+            }
+            .LeftLeft .LeftLeftTop .SunriseAndSunset i{
+                font-size: 22px;
+            }
+            .LeftLeft .LeftLeftTop .SunriseAndSunset{
+                font-size: 12px;
+            }
+            /*Right Card */
+            .RightSide .RightCard .City h2{
+                font-size:16px;
+                font-weight: lighter;
+            }
+            .RightSide .RightCard .City i{
+                font-size:16px !important;
+            }
+            .RightSide .RightCard h4{
+                font-size: 16px;
+                font-weight: lighter;
+            }
+            .RightSide .RightCard h3{
+                font-size: 16px;
+                font-weight: lighter;
+            }
+            .RightSide .RightCard .Temp{
+                font-size: 30px !important;
+                font-weight: bold;
+            }
+            .RightSide .RightCard .Wind{
+                font-size: 14px !important;
+            }
+            .RightSide .RightCard .Wind .TheWind i{
+                margin-right: 5px;
+                font-size: 16px !important;
+            }
+            .RightSide .RightCard .Hum .TheHum i{
+                margin-right: 8px;
+                font-size: 16px !important;
+            }
+            .RightSide .RightCard .Hum{
+                font-size: 14px !important;
+            }
+            /*Designed By*/
+            .DesigndeBy{
+                font-size: 25px;
+            }
+        }
+
+@media (max-width: 830px) {
+    body .LoadingScreen .LoadingText{
+        font-size: 28px;
+        width: 100%;
+        text-align: center;
+    }
+        /*Circle */
+        .LefContent {
+            margin-top: 40px;
+        }
+        .LefContent .LeftRight {
+            height: 260px;
+            margin-top: 94px;
+        }
+        .LefContent .LeftRight .CircleStatus{
+            width: 150px;
+            height: 150px;
+        }
+        .LefContent .LeftRight .CircleStatus .CircleStatusData h2{
+            font-size: 14px !important;
+            }
+            .LefContent .LeftRight .Status{
+                font-size: 10px;
+            }
+            .LefContent .LeftRight .Status .S::before{
+                height: 8px;
+                width: 8px;
+            }
+            /* Left Nav*/
+            .MainPage .LeftSide .LeftNavnar .Left{
+                font-size: 12px !important;
+            }
+            .MainPage .LeftSide .LeftNavnar .Left h3{
+                font-size: 14px !important;
+            }
+            .MainPage .LeftSide .LeftNavnar .Left h3 i{
+                font-size: 18px !important;
+            }
+            /*Left Cards*/
+            .LeftSide .Cards .Card{
+                width: calc(100% / 4.5);
+            }
+            .LeftSide .Cards .Card{
+                padding: 5px 0px 0px;
+            }
+            /*Nav Right*/
+            .MainPage .RightSide .Nav .NavLeft{
+                padding: 4px;
+                width: 83%;
+            }
+            .MainPage .RightSide .Nav .NavLeft .Search i{
+                font-size: 14px;
+            }
+            .MainPage .RightSide .Nav .NavLeft .Search input{
+                font-size: 14px;
+                padding: 0px 4px;
+            }
+            .MainPage .RightSide .Nav .NavRight{
+                margin-top: -10px;
+            }
+            .MainPage .RightSide .Nav .NavRight i{
+                font-size: 16px;
+            }
+            /*Left Down Left Down*/
+            .LeftLeft .LeftLeftDown {
+                height: calc(75% - 10px);
+                margin-top: 92px;
+            }
+            .LeftLeft .LeftLeftDown h2{
+                font-size: 15px;
+            }
+            .LeftLeft .LeftLeftDown h3{
+                font-size: 14px;
+            }
+            .LeftLeft .LeftLeftDown .DayData{
+                flex-wrap: wrap;
+            }
+            .LeftLeft .LeftLeftDown .DayData img{
+                width: 70px !important;
+                height: 70px !important;
+            }
+            .LeftLeft .LeftLeftDown .DayData h1{
+                font-size: 26px;
+                width: 100%;
+                text-align: center;
+                margin-bottom: 10px !important;
+            }
+            .LeftLeft .LeftLeftDown .DayData h1::after{
+                width: 3px;
+                height: 3px;
+                left: 58%;
+                top: 10%;
+                transform: translate(-50%,-50%);
+            }
+            .LeftLeft .LeftLeftDown .DayData .WindandHum{
+                font-size: 13px;
+            }
+            /*Left Down Left Top*/
+            .LeftLeft .LeftLeftTop{
+                width: 55.5%;
+                position: absolute;
+            }
+            .LeftLeft .LeftLeftTop h1{
+                font-size: 16px;
+                font-weight: lighter;
+                padding-top: 5px ;
+                padding-bottom: 5px ;
+            }
+            .LeftLeft .LeftLeftTop h1 i{
+                font-size: 16px;
+                margin-right: 5px;
+            }
+            /*Right Card */
+            .RightSide .RightCard .City h2{
+                font-size:16px;
+            }
+            .RightSide .RightCard .City i{
+                font-size:16px !important;
+            }
+            .RightSide .RightCard h4{
+                font-size: 14px;
+            }
+
+        }
+
+@media (max-width: 720px) {
+        /*Circle */
+        .LefContent {
+            margin-top: 40px;
+        }
+        .LefContent .LeftRight {
+            height: 260px;
+            margin-top: 94px;
+        }
+        .LefContent .LeftRight .CircleStatus{
+            width: 180px;
+            height: 180px;
+        }
+        .LefContent .LeftRight .CircleStatus .CircleStatusData h2{
+            font-size: 15px !important;
+            }
+            .LefContent .LeftRight .Status .S{
+                font-size: 14px;
+                font-weight: lighter;
+            }
+            .LefContent .LeftRight .Status .S:last-of-type{
+                margin-right: 3px;
+            }
+            .LefContent .LeftRight .Status .S::before{
+                height: 8px;
+                width: 8px;
+            }
+            /* MainPage*/
+            .MainPage{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column-reverse;
+            }
+            .MainPage .LeftSide{
+                margin-top: 25px;
+                width: 90%;
+                position: relative;
+                left: 50%;
+                transform: translateX(-50%);
+                padding-bottom: 25px;
+                padding: 2% 4%;
+            }
+            .MainPage .RightSide{
+                width: 75%;
+                position: relative;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            .MainPage .RightSide .TheContainer .RightCard{
+                z-index: -1;
+            }
+            /* Left Nav*/
+            .MainPage .LeftSide .LeftNavnar .Left{
+                font-size: 16px !important;
+            }
+            .MainPage .LeftSide .LeftNavnar .Left h3{
+                font-size: 16px !important;
+            }
+            .MainPage .LeftSide .LeftNavnar .Left h3 i{
+                font-size: 20px !important;
+            }
+            /*Left Cards*/
+            .LeftSide .Cards .Card{
+                width: calc(100% / 4.5);
+            }
+            .LeftSide .Cards .Card{
+                padding: 8px 0px 0px;
+            }
+            .LeftSide .Cards .Card img{
+                width: 60px;
+                height: 60px;
+            }
+            .LeftSide .Cards .Card h4{
+                font-size: 16px;
+            }
+            .LeftSide .Cards .Card .Temp .TempMark{
+                width: 6px;
+                height: 6px;
+                border-radius: 50%;
+                left: 58%;
+                top: -9%;
+            }
+            /*Nav Right*/
+            .MainPage .RightSide {
+                padding-bottom:3% ;
+            }
+            .MainPage .RightSide .TheContainer{
+                padding: 2% 15%;
+            }
+            .MainPage .RightSide .Nav{
+                position: relative;
+                left: 50%;
+                transform: translateX(-45%);
+                width: 120%;
+            }
+            .MainPage .RightSide .Nav .NavLeft{
+                padding: 6px 0px;
+            }
+            .MainPage .RightSide .Nav .NavLeft .Search i{
+                font-size: 22px;
+            }
+            .MainPage .RightSide .Nav .NavLeft .Search input{
+                font-size: 18px;
+                padding:  4px;
+            }
+            .MainPage .RightSide .Nav .NavRight{
+                margin-top: -10px;
+            }
+            .MainPage .RightSide .Nav .NavRight i{
+                font-size: 22px;
+            }
+            /*Left Down Left Down*/
+            .LeftLeft .LeftLeftDown {
+                height: calc(75% - 10px);
+                margin-top: 92px;
+            }
+            .LeftLeft .LeftLeftDown h2{
+                font-size: 17px;
+            }
+            .LeftLeft .LeftLeftDown h3{
+                font-size: 16px;
+                font-weight: lighter;
+            }
+            .LeftLeft .LeftLeftDown .DayData{
+                flex-wrap: wrap;
+            }
+            .LeftLeft .LeftLeftDown .DayData img{
+                width: 70px !important;
+                height: 70px !important;
+            }
+            .LeftLeft .LeftLeftDown .DayData h1{
+                font-size: 26px;
+                width: 100%;
+                text-align: center;
+                margin-bottom: 10px !important;
+            }
+            .LeftLeft .LeftLeftDown .DayData h1::after{
+                width: 3px;
+                height: 3px;
+                left: 58%;
+                top: 10%;
+                transform: translate(-50%,-50%);
+            }
+            .LeftLeft .LeftLeftDown .DayData .WindandHum{
+                font-size: 13px;
+            }
+            /*Left Down Left Top*/
+            .LeftLeft .LeftLeftTop{
+                width: 92%;
+                margin-top: -15px;
+            }
+            .LeftLeft .LeftLeftTop h1{
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .LeftLeft .LeftLeftTop h1 i{
+                font-size: 18px;
+                margin-right: 5px;
+            }
+            .LeftLeft .LeftLeftTop .SunriseAndSunset i{
+                font-size: 24px;
+            }
+            .LeftLeft .LeftLeftTop .SunriseAndSunset{
+                font-size: 14px;
+            }
+            .LeftLeft .LeftLeftTop .SunriseAndSunset h5{
+                font-size: 16px;
+            }
+            /*Right Card */
+            .RightSide .RightCard .City h2{
+                font-size:20px;
+                font-weight: lighter;
+            }
+            .RightSide .RightCard .City i{
+                font-size:16px !important;
+            }
+            .RightSide .RightCard h4{
+                font-size: 18px;
+                font-weight: lighter;
+            }
+            .RightSide .RightCard h3{
+                font-size: 16px;
+                font-weight: lighter;
+            }
+            .RightSide .TheContainer .RightCard .Temp .TempMark {
+                width: 6px;
+                height: 6px;
+                border-radius: 50%;
+                left: 56%;
+                top: 9%;
+            }
+            .RightSide .RightCard .Wind{
+                font-size: 18px !important;
+            }
+            .RightSide .RightCard .Wind .TheWind i{
+                margin-right: 5px;
+                font-size: 20px !important;
+            }
+            .RightSide .RightCard .Hum .TheHum i{
+                margin-right: 8px;
+                font-size: 20px !important;
+            }
+            .RightSide .RightCard .Hum{
+                font-size: 18px !important;
+            }
+            /*Designed By*/
+            .DesigndeBy{
+                font-size: 25px;
+                display: none;
+            }
+        }
+
+@media (max-width: 580px) {
+    body .LoadingScreen .LoadingText{
+        font-size: 24px;
+    }
+        /*Circle */
+        .LefContent {
+            margin-top: 40px;
+        }
+        .LefContent .LeftRight {
+            height: 260px;
+            margin-top: 94px;
+        }
+        .LefContent .LeftRight .CircleStatus{
+            width: 150px;
+            height: 150px;
+        }
+        .LefContent .LeftRight .CircleStatus .CircleStatusData h2{
+            font-size: 13px !important;
+            }
+            .LefContent .LeftRight .Status .S{
+                font-size: 12px;
+            }
+            .LefContent .LeftRight .Status .S:last-of-type{
+                margin-right: 3px;
+            }
+            .LefContent .LeftRight .Status .S::before{
+                height: 7px;
+                width: 7px;
+            }
+            /* Left Nav*/
+            .MainPage .LeftSide .LeftNavnar .Left{
+                font-size: 14px !important;
+            }
+            .MainPage .LeftSide .LeftNavnar .Left h3{
+                font-size: 14px !important;
+            }
+            .MainPage .LeftSide .LeftNavnar .Left h3 i{
+                font-size: 18px !important;
+            }
+            /*Left Cards*/
+            .LeftSide .Cards .Card{
+                width: calc(100% / 4.5);
+            }
+            .LeftSide .Cards .Card{
+                padding: 6px 0px 0px;
+            }
+            .LeftSide .Cards .Card img{
+                width: 50px;
+                height: 50px;
+            }
+            .LeftSide .Cards .Card h4{
+                font-size: 13px;
+            }
+            .LeftSide .Cards .Card .Temp .TempMark{
+                width: 4px;
+                height: 4px;
+                border-radius: 50%;
+                left: 60%;
+                top: -7%;
+            }
+            /*Nav Right*/
+            .MainPage .RightSide {
+                padding-bottom:3% ;
+            }
+            .MainPage .RightSide .Nav{
+                position: relative;
+                left: 50%;
+                transform: translateX(-45%);
+                width: 120%;
+            }
+            .MainPage .RightSide .Nav .NavLeft{
+                padding: 5px 0px;
+            }
+            .MainPage .RightSide .Nav .NavLeft .Search i{
+                font-size: 20px;
+            }
+            .MainPage .RightSide .Nav .NavLeft .Search input{
+                font-size: 16px;
+                padding:  4px;
+            }
+            .MainPage .RightSide .Nav .NavRight{
+                margin-top: -10px;
+            }
+            .MainPage .RightSide .Nav .NavRight i{
+                font-size: 22px;
+            }
+            /*Left Down Left Down*/
+            .LeftLeft .LeftLeftDown {
+                height: calc(75% - 10px);
+                margin-top: 92px;
+            }
+            .LeftLeft .LeftLeftDown h2{
+                font-size: 15px;
+            }
+            .LeftLeft .LeftLeftDown h3{
+                font-size: 14px;
+                font-weight: lighter;
+            }
+            .LeftLeft .LeftLeftDown .DayData{
+                flex-wrap: wrap;
+            }
+            .LeftLeft .LeftLeftDown .DayData img{
+                width: 70px !important;
+                height: 70px !important;
+            }
+            .LeftLeft .LeftLeftDown .DayData h1{
+                font-size: 26px;
+                width: 100%;
+                text-align: center;
+                margin-bottom: 10px !important;
+            }
+            .LeftLeft .LeftLeftDown .DayData h1::after{
+                width: 3px;
+                height: 3px;
+                left: 58%;
+                top: 10%;
+                transform: translate(-50%,-50%);
+            }
+            .LeftLeft .LeftLeftDown .DayData .WindandHum{
+                font-size: 13px;
+            }
+            /*Left Down Left Top*/
+            .LeftLeft .LeftLeftTop{
+                margin-top: -15px;
+            }
+            .LeftLeft .LeftLeftTop h1{
+                font-size: 16px;
+                font-weight: bold;
+            }
+            .LeftLeft .LeftLeftTop h1 i{
+                font-size: 18px;
+                margin-right: 5px;
+            }
+            .LeftLeft .LeftLeftTop .SunriseAndSunset i{
+                font-size: 22px;
+            }
+            .LeftLeft .LeftLeftTop .SunriseAndSunset{
+                font-size: 13px;
+            }
+            .LeftLeft .LeftLeftTop .SunriseAndSunset h5{
+                font-size: 14px;
+            }
+            /*Right Card */
+            .MainPage .RightSide .TheContainer .RightCard .City .LiveUpdate::after{
+                position: absolute;
+                content: "";
+                right: -22%;
+                top: 58%;
+                height: 8px;
+                width: 8px;
+                }
+            .RightSide .RightCard .City h2{
+                font-size:18px;
+            }
+            .RightSide .RightCard .City i{
+                font-size:14px !important;
+            }
+            .RightSide .RightCard h4{
+                font-size: 15px;
+            }
+            .RightSide .RightCard h3{
+                font-size: 14px;
+            }
+            .RightSide .TheContainer .RightCard .Temp .TempMark {
+                width: 5px ;
+                height: 5px ;
+                left: 58% ;
+                top: 6% ;
+            }
+            .RightSide .RightCard .Wind{
+                font-size: 16px !important;
+            }
+            .RightSide .RightCard .Wind .TheWind i{
+                margin-right: 5px;
+                font-size: 16px !important;
+            }
+            .RightSide .RightCard .Hum .TheHum i{
+                margin-right: 8px;
+                font-size: 18px !important;
+            }
+            .RightSide .RightCard .Hum{
+                font-size: 16px;
+            }
+            /*Designed By*/
+            .DesigndeBy{
+                font-size: 25px;
+            }
+            /*Footer*/
+            
+
+  .Footer h1{
+    font-size: 30px;
+  }
+  .Footer i{
+    font-size: 30px;
+  }
+  .Footer .OurProjects{
+    font-size: 22px;
+    padding: 8px 16px !important;
+}
+
+        }
+
+
+@media (max-width: 490px) {
+        /*Circle */
+        .LefContent {
+            margin-top: 40px;
+        }
+        .LefContent .LeftRight {
+            height: 200px;
+            margin-top: 109px;
+        }
+        .LefContent .LeftRight .CircleStatus{
+            width: 110px;
+            height: 110px;
+        }
+        .LefContent .LeftRight .CircleStatus .CircleStatusData h2{
+            font-size: 10px !important;
+            }
+            .LefContent .LeftRight .Status .S{
+                font-size: 10px;
+                margin: 0px 8px;
+            }
+            .LefContent .LeftRight .Status .S:last-of-type{
+                margin-right: 3px;
+            }
+            .LefContent .LeftRight .Status .S::before{
+                height: 5px;
+                width: 5px;
+            }
+            /* Left Nav*/
+            .MainPage .LeftSide .LeftNavnar .Left{
+                font-size: 12px !important;
+            }
+            .MainPage .LeftSide .LeftNavnar .Left h3{
+                font-size: 12px !important;
+            }
+            .MainPage .LeftSide .LeftNavnar .Left h3 i{
+                font-size: 14px !important;
+            }
+            /*Left Cards*/
+            .LeftSide .Cards .Card{
+                width: calc(100% / 4.5);
+            }
+            .LeftSide .Cards .Card{
+                padding: 5px 0px 0px;
+            }
+            .LeftSide .Cards .Card img{
+                width: 50px;
+                height: 50px;
+            }
+            .LeftSide .Cards .Card h4{
+                font-size: 11px;
+            }
+            .LeftSide .Cards .Card .Temp .TempMark{
+                width: 4px;
+                height: 4px;
+                border-radius: 50%;
+                left: 61%;
+                top: -7%;
+            }
+            /*Nav Right*/
+            .MainPage .RightSide {
+                padding-bottom:3% ;
+            }
+            .MainPage .RightSide .Nav{
+                position: relative;
+                left: 50%;
+                transform: translateX(-45%);
+                width: 120%;
+            }
+            .MainPage .RightSide .Nav .NavLeft{
+                padding: 5px 0px;
+            }
+            .MainPage .RightSide .Nav .NavLeft .Search i{
+                font-size: 16px;
+            }
+            .MainPage .RightSide .Nav .NavLeft .Search input{
+                font-size: 14px;
+                padding:  4px;
+            }
+            .MainPage .RightSide .Nav .NavRight{
+                margin-top: -10px;
+            }
+            .MainPage .RightSide .Nav .NavRight i{
+                font-size: 18px;
+            }
+            /*Left Down Left Down*/
+            .LeftLeft .LeftLeftDown {
+                height: calc(65% - 10px);
+                margin-top: 92px;
+            }
+            .LeftLeft .LeftLeftDown h2{
+                font-size: 12px;
+            }
+            .LeftLeft .LeftLeftDown h3{
+                font-size: 12px;
+            }
+            .LeftLeft .LeftLeftDown .DayData{
+                flex-wrap: wrap;
+            }
+            .LeftLeft .LeftLeftDown .DayData img{
+                width: 60px !important;
+                height: 60px !important;
+            }
+            .LeftLeft .LeftLeftDown .DayData h1{
+                font-size: 26px;
+                width: 100%;
+                text-align: center;
+                margin-bottom: 10px !important;
+            }
+            .LeftLeft .LeftLeftDown .DayData h1::after{
+                width: 3px;
+                height: 3px;
+                left: 60%;
+                top: 10%;
+                transform: translate(-50%,-50%);
+            }
+            .LeftLeft .LeftLeftDown .DayData .WindandHum{
+                font-size: 13px;
+            }
+            /*Left Down Left Top*/
+            .LeftLeft .LeftLeftTop h1{
+                font-size: 14px;
+                font-weight: bold;
+            }
+            .LeftLeft .LeftLeftTop h1 i{
+                font-size: 14px;
+                margin-right: 5px;
+            }
+            .LeftLeft .LeftLeftTop .SunriseAndSunset i{
+                font-size: 20px;
+            }
+            .LeftLeft .LeftLeftTop .SunriseAndSunset{
+                font-size: 11px;
+            }
+            .LeftLeft .LeftLeftTop .SunriseAndSunset h5{
+                font-size: 12px;
+            }
+            /*Right Card */
+            .RightSide .RightCard .City h2{
+                font-size:18px;
+            }
+            .RightSide .RightCard .City i{
+                font-size:14px !important;
+            }
+            .RightSide .RightCard h4{
+                font-size: 15px;
+            }
+            .RightSide .RightCard h3{
+                font-size: 14px;
+            }
+            .RightSide .RightCard .Wind{
+                font-size: 16px;
+            }
+            .RightSide .RightCard .Wind .TheWind i{
+                margin-right: 5px;
+                font-size: 16px;
+            }
+            .RightSide .RightCard .Hum .TheHum i{
+                margin-right: 8px;
+                font-size: 18px
+            }
+            .RightSide .RightCard .Hum{
+                font-size: 16px;
+            }
+            /*Designed By*/
+            .DesigndeBy{
+                font-size: 25px;
+            }
+             /*Footer*/
+            
+
+  .Footer h1{
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+  .Footer i{
+    font-size: 30px;
+    margin: 20px 15px;
+  }
+  .Footer .OurProjects{
+    font-size: 22px;
+    padding: 8px 16px !important;
+}
+
+        }
+
+
+
+@media (max-width: 420px) {
+    body .LoadingScreen .LoadingText{
+        font-size: 20px;
+    }
+            /*Nav Right*/
+            .MainPage .RightSide {
+                padding-bottom:3% ;
+            }
+            .MainPage .RightSide .TheContainer{
+                padding: 2% 8%;
+            }
+            .MainPage .RightSide .Nav {
+                transform: translateX(-46%);
+                width: 95%;
+            }
+            .MainPage .RightSide .Nav .NavLeft {
+                padding: 5px;
+            }
+                /*Right Card*/
+                .MainPage .RightSide .TheContainer .RightCard .Sun img{
+                    width: 70px;
+                    height: 70px;
+                }
+                .MainPage .RightSide .TheContainer .RightCard .City .LiveUpdate::after{
+                    position: absolute;
+                    content: "";
+                    right: -22%;
+                    top: 58%;
+                    height: 6px;
+                    width: 6px;
+                    }
+                /*Left Nav*/
+                .MainPage .RightSide .Nav .NavLeft .Search i:last-of-type {
+                    padding: 5px 6px;
+                }
+        }
+
+@media (max-width: 372px) {
+    /*Left Cards*/
+    .LeftSide .Cards .Card{
+        padding: 5px 0px 0px;
+    }
+
+    .LeftSide .Cards .Card{
+        width: calc(100% / 3.4);
+    }
+    .LeftSide .Cards .Card h4{
+    font-size: 12px;
+    }
+    .LeftSide .Cards .Card .Temp .TempMark {
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        left: 62%;
+        top: -8%;
+    }
+            /*Nav Right*/
+            .MainPage .RightSide {
+                padding-bottom:3% ;
+            }
+            .MainPage .RightSide .TheContainer{
+                padding: 2% 4%;
+            }
+            
+            /*Left Down Left Down*/
+            .LeftLeft .LeftLeftDown {
+                height: calc(68% - 10px);
+                margin-top: 92px;
+            }
+            .LeftLeft .LeftLeftDown h2{
+                font-size: 10px;
+            }
+            .LeftLeft .LeftLeftDown h3{
+                font-size: 10px;
+            }
+            .LeftLeft .LeftLeftDown .DayData h1::after {
+                left: 63%;
+                top: 9%;
+            }
+            /*Right Card*/
+            .MainPage .RightSide .TheContainer .RightCard .City .LiveUpdate{
+                font-size: 15px;
+                }
+            .MainPage .RightSide .TheContainer .RightCard .Sun img{
+                width: 50px;
+                height: 50px;
+            }
+            .RightSide .RightCard .City h2{
+                font-size:15px;
+            }
+            .RightSide .RightCard h3{
+                font-size: 12px;
+            }
+            .RightSide .RightCard .Temp{
+                font-size: 24px !important;
+            }
+            .RightSide .RightCard .Wind{
+                font-size: 12px !important;
+            }
+            .RightSide .RightCard .Wind .TheWind i{
+                font-size: 12px !important;
+            }
+            .RightSide .RightCard .Hum .TheHum i{
+                font-size: 12px !important;
+            }
+            .RightSide .RightCard .Hum{
+                font-size: 12px !important;
+            }
+            .RightSide .TheContainer .RightCard .Temp .TempMark {
+                width: 5px;
+                height: 5px;
+                left: 58%;
+                top: 7%;
+            }
+        }
+
+@media (max-width: 354px) {
+    body .LoadingScreen .LoadingText{
+        font-size: 16px;
+    }
+    /*Circle */
+    .LefContent {
+        margin-top: 40px;
+    }
+    .LefContent .LeftRight {
+        height: 150px;
+        margin-top: 139px;
+    }
+    .LefContent .LeftRight .CircleStatus{
+        width: 80px;
+        height: 80px;
+    }
+    .LefContent .LeftRight .CircleStatus .CircleStatusData h2{
+        font-size: 7px !important;
+        }
+        .LefContent .LeftRight .Status .S{
+            font-size: 9px;
+            margin: 0px 8px;
+        }
+        .LefContent .LeftRight .Status .S::before{
+            height: 5px;
+            width: 5px;
+        }
+                /*Nav Right*/
+            .MainPage .RightSide .Nav{
+                transform: translateX(-48%);
+                width: 95%;
+            }
+            .MainPage .RightSide .Nav .NavLeft{
+                padding: 5px;
+            }
+            .MainPage .RightSide .Nav .NavLeft .Search i{
+                font-size: 12px;
+            }
+            .MainPage .RightSide .Nav .NavLeft .Search input{
+                font-size: 12px;
+                padding:  3px;
+            }
+            .MainPage .RightSide .Nav .NavRight{
+                margin-top: -10px;
+            }
+            .MainPage .RightSide .Nav .NavRight i{
+                font-size: 14px;
+            }
+            .MainPage .RightSide .Nav .NavLeft .Search i:last-of-type {
+                padding: 5px 6px;
+            }
+            /*Right Card */
+            .RightSide .RightCard .City h2{
+                font-size:16px;
+            }
+            .RightSide .RightCard .City i{
+                font-size:12px !important;
+            }
+            .RightSide .RightCard h4{
+                font-size: 14px;
+            }
+            .RightSide .RightCard h3{
+                font-size: 12px;
+            }
+            .RightSide .RightCard .Temp{
+                font-size: 26px !important;
+            }
+            .RightSide .RightCard .Wind{
+                font-size: 14px;
+            }
+            .RightSide .RightCard .Wind .TheWind i{
+                margin-right: 4px;
+                font-size: 14px;
+            }
+            .RightSide .RightCard .Hum .TheHum i{
+                margin-right: 6px;
+                font-size: 16px
+            }
+            .RightSide .RightCard .Hum{
+                font-size: 14px;
+            }
+            /*Left Nav*/
+            .MainPage .LeftSide .LeftNavnar .Left {
+                font-size: 10px !important;
+            }
+            .MainPage .LeftSide .LeftNavnar .Right .DarkLightMode {
+                margin-top: 15px;
+                width: 50px;
+                background-color: white;
+                padding: 8px;
+                border-radius: 0% 50%;
+                }
+                .MainPage .LeftSide .LeftNavnar .Right .DarkLightMode i {
+                    font-size: 16px;
+                }
+                .MainPage .RightSide .Nav .NavLeft .Search i:last-of-type {
+                    padding: 5px 6px;
+                    font-size: 17px;
+                }
+                /*Left Down Left Down*/
+            .LeftLeft .LeftLeftDown {
+                height: calc(68% - 10px);
+                margin-top: 92px;
+            }
+            .LeftLeft .LeftLeftDown h2{
+                font-size: 8px;
+            }
+            .LeftLeft .LeftLeftDown h3{
+                font-size: 11px;
+            }
+            .LeftLeft .LeftLeftDown .DayData h1{
+                font-size: 18px;
+                margin-top: 5px !important;
+            }
+            .LeftLeft .LeftLeftDown .DayData h1::after{
+                width: 2px;
+                height: 2px;
+                left: 60% ;
+                top: 4%;
+            }
+            .LeftLeft .LeftLeftDown .DayData .WindandHum{
+                font-weight: normal;
+                font-size: 12px;
+            }
+            /*Footer*/
+            
+
+  .Footer h1{
+    font-size: 26px;
+    margin-bottom: 0px;
+  }
+  .Footer i{
+    font-size: 26px;
+    margin: 18px 14px;
+  }
+  .Footer .OurProjects{
+    font-size: 20px;
+    padding: 7px 14px !important;
+}
+        }
+
+@media (max-width:326px) {
+                /*Circle */
+        .LefContent .LeftRight .Status .S{
+            font-size: 8px;
+            margin: 0px 7px;
+        }
+        .LefContent .LeftRight .Status .S::before{
+            height: 4px;
+            width: 4px;
+        }
+}
+@media (max-width:296px) {
+          /*Circle */
+        .LefContent .LeftRight .Status .S{
+            font-size: 7px;
+            margin: 0px 7px;
+        }
+        .LefContent .LeftRight .Status .S::before{
+            height: 4px;
+            width: 4px;
+        }
+                /*Right Card */
+            .RightSide .RightCard .City h2{
+                font-size:14px;
+            }
+            .RightSide .RightCard .City i{
+                font-size:12px !important;
+            }
+            .RightSide .RightCard h4{
+                font-size: 12px;
+            }
+            .RightSide .RightCard h3{
+                font-size: 12px;
+            }
+            .RightSide .RightCard .Temp{
+                font-size: 20px !important;
+            }
+            .RightSide .TheContainer .RightCard .Temp .TempMark {
+                width: 4px;
+                height: 4px;
+                left: 58%;
+                top: 7%;
+            }
+            /*Left Top*/
+            .LeftLeft .LeftLeftTop .SunriseAndSunset {
+                font-size: 9px;
+            }
+            /*Left Nav*/
+            .MainPage .RightSide .Nav .NavLeft .Search i:last-of-type {
+                padding: 4px 5px;
+                font-size: 14px;
+            }
+}
+@media (max-width:262px) {
+    /*Left Nav*/
+    .MainPage .RightSide .Nav .NavLeft .Search i:last-of-type {
+        padding: 3px 4px;
+        font-size: 12px;
+    }
+       /*Right Card */
+    .RightSide .RightCard .City h2{
+        font-size:12px;
+    }
+    .RightSide .RightCard .City i{
+        font-size:10px !important;
+    }
+    .RightSide .RightCard h4{
+        font-size: 10px;
+    }
+    .RightSide .RightCard h3{
+        font-size: 10px;
+    }
+    .RightSide .RightCard .Temp{
+        font-size: 16px !important;
+    }
+    .RightSide .TheContainer .RightCard .Temp .TempMark {
+        width: 3px;
+        height: 3px;
+        left: 59%;
+        top: 6%;
+    }
+      /*Circle */
+    .LefContent {
+        margin-top: 40px;
+    }
+    .LefContent .LeftRight {
+        height: 120px;
+        margin-top: 135px;
+    }
+    .LefContent .LeftRight .CircleStatus{
+        width: 60px;
+        height: 60px;
+    }
+    .LefContent .LeftRight .CircleStatus .CircleStatusData h2 {
+        font-size: 5px !important;
+    }
+    .LefContent .LeftRight .Status .S{
+        font-size: 6px;
+        margin: 0px 6px;
+    }
+    .LefContent .LeftRight .Status .S::before{
+        height: 3px;
+        width: 3px;
+    }
+    /*Left Cards*/
+    .LeftSide .Cards .Card{
+        padding: 8px 0px 0px;
+    }
+    .LeftSide .Cards .Card img{
+    width: 30px;
+    height: 30px;
+    }
+    .LeftSide .Cards .Card{
+        width: calc(100% / 3.5);
+    }
+    .LeftSide .Cards .Card h4{
+    font-size: 8px;
+    }
+    .LeftSide .Cards .Card h4:last-of-type {
+        font-size: 12px;
+    }
+    .LeftSide .Cards .Card .Temp .TempMark {
+        width: 2px;
+        height: 2px;
+        border-radius: 50%;
+        left: 61%;
+        top: -7%;
+    }
+
+    /*Left Down LeftTop*/
+    .LeftLeft .LeftLeftTop .SunriseAndSunset {
+        font-size: 7px;
+    }
+    .LeftLeft .LeftLeftTop .SunriseAndSunset i {
+        font-size: 14px !important;
+    }
+    .LeftLeft .LeftLeftTop h1 {
+        font-size: 12px;
+    }
+    /*Left Down Left Down*/
+    .LeftLeft .LeftLeftDown {
+        height: calc(60% - 10px);
+        margin-top: 92px;
+    }
+    .LeftLeft .LeftLeftDown h2{
+        font-size: 7px;
+    }
+    .LeftLeft .LeftLeftDown h3{
+        font-size: 9px;
+    }
+    .LeftLeft .LeftLeftDown .DayData h1{
+        font-size: 18px;
+    }
+    .LeftLeft .LeftLeftDown .DayData h1::after{
+        width: 3px;
+        height: 3px;
+        left: 60%;
+        top: 9%;
+        border-width: 1px;
+    }
+    .LeftLeft .LeftLeftDown .DayData img {
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .LeftLeft .LeftLeftDown .DayData .WindandHum{
+        font-weight: normal;
+        font-size: 12px;
+    }
+    /*Footer*/
+            
+
+  .Footer h1{
+    font-size: 22px;
+  }
+  .Footer i{
+    font-size: 22px;
+    margin: 14px 10px;
+  }
+  .Footer .OurProjects{
+    font-size: 16px;
+    padding: 6px 12px !important;
+}
+}
